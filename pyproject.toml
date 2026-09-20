@@ -1,0 +1,12 @@
+[project]
+name = "church-downloader"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "gallery-dl>=1.32.13",
+    "streamlit>=1.64.0",
+    "yt-dlp-ejs>=0.8.0",
+    "yt-dlp[curl-cffi,default]>=2026.8.19",
+]
